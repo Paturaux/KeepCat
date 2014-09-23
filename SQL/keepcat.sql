@@ -1,7 +1,7 @@
 CREATE DATABASE IF NOT EXISTS `keepcat`;
 USE `keepcat`;
 
-DROP TABLE `user`;
+DROP TABLE IF EXISTS `user`;
 CREATE TABLE IF NOT EXISTS `user` (
   `num` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(50) NOT NULL,
@@ -27,3 +27,39 @@ INSERT INTO `user` (`num`, `name`, `pass`, `first_name`, `mail`, `num_phone`, `b
 (5, 'Charles', 'admin', 'jean paul', 'jpcharles@hotmail.fr', '00 00 00 00 00', '1994-01-11', 'Lyon', 19);
 INSERT INTO `user` (`num`, `name`, `pass`, `first_name`, `mail`, `num_phone`, `b_date`, `location`, `price`) VALUES
 (6, 'Hubert', 'admin', 'yohan', 'yoyohub@hotmail.fr', '00 00 00 00 00', '1994-01-11', 'Lyon', 15);
+
+
+DROP TABLE IF EXISTS `animal`;
+CREATE TABLE IF NOT EXISTS `animal` (
+	`num` int(11) NOT NULL AUTO_INCREMENT,
+	`name` varchar(50) NOT NULL,
+	`race` varchar(50) NOT NULL,
+	`b_date` date NOT NULL,
+	`description` TEXT NULL, 
+	`numUser` int(11) NOT NULL,
+	`numPhoto` int(11) NULL,
+	PRIMARY KEY(`num`)
+  );
+  
+INSERT INTO `animal` (`num`, `name`, `race`, `b_date`, `description`, `numUser`, `numPhoto`) VALUES
+(1, 'Félix', 'American', '2010-00-00', 'test', 1, 1);
+INSERT INTO `animal` (`num`, `name`, `race`, `b_date`, `description`, `numUser`, `numPhoto`) VALUES
+(2, 'Micka', 'Ragdoll', '2008-00-00', 'test2', 1, 2);
+INSERT INTO `animal` (`num`, `name`, `race`, `b_date`, `description`, `numUser`, `numPhoto`) VALUES
+(3, 'Adora', 'Exotic', '2013-00-00', 'test3', 1, 3);
+
+
+DROP TABLE IF EXISTS `photo`;
+CREATE TABLE IF NOT EXISTS `photo` (
+	`num` int(11) NOT NULL AUTO_INCREMENT,
+	`title` varchar(50) NOT NULL,
+	`src` varchar(60) NOT NULL,
+	PRIMARY KEY(`num`)
+);
+
+INSERT INTO `photo` (`num`, `title`, `src`) VALUES
+(1, 'Félix', 'resources/chat1.jpg');
+INSERT INTO `photo` (`num`, `title`, `src`) VALUES
+(2, 'Micka', 'resources/chat2.jpg');
+ INSERT INTO `photo` (`num`, `title`, `src`) VALUES
+(3, 'Micka', 'resources/chat3.jpg');

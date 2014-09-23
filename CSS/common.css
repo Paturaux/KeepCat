@@ -334,15 +334,18 @@ div.animal img.fleche{
     float: right;
     top: -37px;
     right: 10px;
+    cursor: pointer;
 }
-div#description{
+div.description{
     display: block;
     margin: -11px 10px 10px 10px;
-    height: 120px;
+    height: 0;
     width: 303px;
     border: solid 1px #ccc;
     background-color: #fff;
     z-index: 0;
+    overflow: hidden;
+    visibility: hidden;
 }
 
 /* AVIS */
