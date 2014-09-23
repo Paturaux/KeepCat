@@ -7,7 +7,7 @@
         <p>Charles</p>
         <img src="resources/icones/forward.png"/>
     </div>
-    <a href="chatroulette.php">
+    <a href="index.php?page=chatroulette">
         <div class="contact">
             <p>Pierre</p>
             <img src="resources/icones/forward.png"/>
