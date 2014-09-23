@@ -27,7 +27,6 @@
     </div>
 
     <footer>
-        <input type="text" placeholder="Message &agrave; envoyer ..."/>
-        <button>Envoyer</button>
+        <a href=""><span class="boutonMenuBasSeul"><img src="resources/icones/message.png"/>Nouveau Message</span></a>
     </footer>
 </body>

@@ -468,12 +468,15 @@ div.contact img{
 
 /* CHATROULETTE */
 div.bulle{
-    margin: 10px;
+    position: relative;
+    margin: 10px 10px 5px 10px;
+    padding: 5px;
     min-height: 10px;
     width: 200px;
     border: solid 1px #ccc;
     border-radius: 6px;
     background-color: #fff;
+    box-shadow: 1px 1px 3px #ccc;
 }
 div.bulleDroite{
     float: right;
@@ -483,6 +486,25 @@ div.bulleDroite{
 div.bulleGauche{
     float: left;
 }
+div.bulle div.losange{
+    position: absolute;
+    bottom: -7px;
+    left: 10px;
+    height: 12px;
+    width: 12px;
+    border-bottom: solid 1px #ccc;
+    border-right: solid 1px #ccc;
+    box-shadow: 1px 1px 3px #ccc;
+    transform: rotate(45deg);
+}
+div.bulleDroite div.losange{
+    background-color: #2789e4;
+}
+div.bulleGauche div.losange{
+    background-color: #fff;
+}
+
+
 /* RECHERCHER */
 div#rechercheParNom{
     position: relative;

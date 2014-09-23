@@ -6,13 +6,13 @@
         <p id="titre">Jean Paul</p>
         <a href="#"><img src="resources/icones/settings.png"  id="iconeHeaderDroit"/></a>
     </header>
-    
+
     <div id="menuProfil">
         <a href="profiljeanpaul.php"><div id="ongletProfilGauche">Profil</div></a><!--
         --><a href="#"><div id="ongletProfilCentre" style="color:#fff;background:#2789e4;">Animaux</div></a><!--
         --><a href="avisjeanpaul.php"><div id="ongletProfilDroit">Avis</div></a>
     </div>
-    
+
     <div class="animal">
         <img src="resources/chat1.jpg" class="chat"/>
         <p class="nom">F&eacute;lix</p>
@@ -21,7 +21,7 @@
         <img src="resources/icones/up_black.png" class="fleche"/>
     </div>
     <div id="description">
-        
+
     </div>
     <div class="animal">
         <img src="resources/chat2.jpg" class="chat"/>
@@ -37,8 +37,9 @@
         <p class="race"><img src="resources/icones/cat_footprint.png"/>Exotic</p>
         <img src="resources/icones/down_black.png" class="fleche"/>
     </div>
-    
+
     <footer>
-        <a href="#"><span class="boutonMenuBasSeul"><img src="resources/icones/plus.png"/>Demander la garde</span></a>
+        <a href=""><span class="boutonMenuBas"><img src="resources/icones/message.png"/>Joindre</span></a><!-- WhiteSpace
+        --><a href=""><span class="boutonMenuBas"><img src="resources/icones/plus.png"/>Demander</span></a>
     </footer>
 </body>

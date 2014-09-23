@@ -30,6 +30,7 @@
     </div>
 
     <footer>
-        <a href="#"><span class="boutonMenuBasSeul"><img src="resources/icones/plus.png"/>Demander la garde</span></a>
+        <a href=""><span class="boutonMenuBas"><img src="resources/icones/message.png"/>Joindre</span></a><!-- WhiteSpace
+        --><a href=""><span class="boutonMenuBas"><img src="resources/icones/plus.png"/>Demander</span></a>
     </footer>
 </body>

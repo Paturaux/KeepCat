@@ -21,7 +21,7 @@
         <img src="resources/icones/star_pleine.png" />
         <img src="resources/icones/star_vide.png"/>
     </div>
-<!--    <button id="boutonVoter">Voter</button>-->
+    <!--    <button id="boutonVoter">Voter</button>-->
 
     <div class="commentaire">
         <p class="auteurAvis">Eveline</p>
@@ -71,9 +71,12 @@
         <p class="commentaireAvis">
         </p>
     </div>
-    
-<!--    <footer>
-        <input type="text" placeholder="Commentaire &agrave; envoyer ..."/>
-        <button>Envoyer</button>
-    </footer>-->
+    <footer>
+        <a href=""><span class="boutonMenuBas"><img src="resources/icones/message.png"/>Joindre</span></a><!-- WhiteSpace
+        --><a href=""><span class="boutonMenuBas"><img src="resources/icones/plus.png"/>Demander</span></a>
+    </footer>
+    <!--    <footer>
+            <input type="text" placeholder="Commentaire &agrave; envoyer ..."/>
+            <button>Envoyer</button>
+        </footer>-->
 </body>

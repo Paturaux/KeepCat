@@ -19,8 +19,9 @@
     
     <div id="generalProfil">
         <p id="nom">Jean Paul</p>
-        <p id="age"><img src="resources/icones/birthday.png"/>26 ans</p>
+        <p id="prix"><img src="resources/icones/prix.png"/>20 &euro; / semaine</p>
         <p id="lieu"><img src="resources/icones/location.png"/>Lyon</p>
+        <p id="age"><img src="resources/icones/birthday.png"/>26 ans</p>
         <span id="note">4.0</span>
     </div>
     

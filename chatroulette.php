@@ -9,21 +9,27 @@
 
     <div class="bulleDroite bulle">
         ldsihfdifds ksdg sdjkgsdgu sdjgnsdl bsdkjg bsdgsd gisdopg sdog
+        <div class="losange"></div>
     </div>
     <div class="bulleGauche bulle">
         ldsihfdifds ksdg sdjkgsdgu sdjgnsdl bsdkjg bsdgsd gisdopg sdog
+        <div class="losange"></div>
     </div>
     <div class="bulleDroite bulle">
         ldsihfdifds ksdg  bsdkjg bsdgsd gisdopg sdog
+        <div class="losange"></div>
     </div>
     <div class="bulleGauche bulle">
         ldsihfdifds ksdg sdjkgsdgu sdjgnsdl b gisdopg sdog
+        <div class="losange"></div>
     </div>
     <div class="bulleDroite bulle">
         ldsihfdifds ksdg sdjgnsdl bsdkjg bsdgsd gisdopg sdog
+        <div class="losange"></div>
     </div>
     <div class="bulleGauche bulle">
         bsdkjg bsdgsd gisdopg sdog
+        <div class="losange"></div>
     </div>
 
     <footer>
