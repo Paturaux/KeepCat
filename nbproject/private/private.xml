@@ -3,16 +3,23 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/Programmes/wamp/www/KeepCat/Controller/c_profil.php</file>
-            <file>file:/D:/Programmes/wamp/www/KeepCat/CSS/common.css</file>
             <file>file:/D:/Programmes/wamp/www/KeepCat/View/accueil.php</file>
-            <file>file:/D:/Programmes/wamp/www/KeepCat/Controller/c_propose.php</file>
-            <file>file:/D:/Programmes/wamp/www/KeepCat/Controller/c_snapchat.php</file>
-            <file>file:/D:/Programmes/wamp/www/KeepCat/Controller/c_home.php</file>
-            <file>file:/D:/Programmes/wamp/www/KeepCat/Controller/c_connection.php</file>
-            <file>file:/D:/Programmes/wamp/www/KeepCat/View/proposer.php</file>
-            <file>file:/D:/Programmes/wamp/www/KeepCat/Controller/c_contact.php</file>
+            <file>file:/D:/Programmes/wamp/www/keepcat/Model/m_animals.php</file>
+            <file>file:/D:/Programmes/wamp/www/keepcat/Controller/c_animals.php</file>
+            <file>file:/D:/Programmes/wamp/www/keepcat/Controller/c_propose.php</file>
+            <file>file:/D:/Programmes/wamp/www/KeepCat/View/animaux.php</file>
+            <file>file:/D:/Programmes/wamp/www/keepcat/Controller/c_home.php</file>
+            <file>file:/D:/Programmes/wamp/www/keepcat/Controller/c_connection.php</file>
             <file>file:/D:/Programmes/wamp/www/KeepCat/View/profil.php</file>
+            <file>file:/D:/Programmes/wamp/www/keepcat/Controller/c_snapchat.php</file>
+            <file>file:/D:/Programmes/wamp/www/keepcat/Model/m_main.php</file>
+            <file>file:/D:/Programmes/wamp/www/keepcat/Controller/c_profil.php</file>
+            <file>file:/D:/Programmes/wamp/www/keepcat/Controller/c_contact.php</file>
+            <file>file:/D:/Programmes/wamp/www/keepcat/Model/m_photos.php</file>
+            <file>file:/D:/Programmes/wamp/www/keepcat/index.php</file>
+            <file>file:/D:/Programmes/wamp/www/KeepCat/View/proposer.php</file>
+            <file>file:/D:/Programmes/wamp/www/keepcat/Model/m_users.php</file>
+            <file>file:/D:/Programmes/wamp/www/keepcat/CSS/common.css</file>
         </group>
     </open-files>
 </project-private>
