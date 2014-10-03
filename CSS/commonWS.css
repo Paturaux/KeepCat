@@ -1,0 +1,101 @@
+/* 
+    Created on : 3 oct. 2014, 18:49:00
+    Author     : Sylvio
+*/
+
+*{
+    font-family: 'Kalinga';/*'Century Gothic';*/
+    text-decoration: none; /* Soulignement des liens, ... */
+    
+    background-image: none;
+}
+
+body{
+    margin: auto;
+}
+
+.title_logo{
+    padding: 0 10px 0 0;
+}
+
+.title_logo img{
+    height: 100%;
+}
+
+#choice_screen{
+    background-color: #02b7aa;
+    color: white;
+}
+
+#choice_screen .logo{
+    display: block;
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 25px;
+}
+
+#choice_screen p{
+    margin: auto;
+    margin-bottom: 30px;
+    max-width: 550px;
+    text-align: justify;
+    line-height: 120%;
+    font-style: italic;
+    font-size: 1.1em;
+    
+}
+
+#choice_screen .container{
+    max-width: 500px;
+    margin: auto;
+}
+
+#choice_screen .container .img_left{
+    width: 150px;
+    cursor: pointer;
+}
+
+#choice_screen .img_right{
+    float: right;
+    width: 200px;
+    cursor: pointer;
+}
+
+
+/*  -------------- Accueil ------------- */
+#home{
+    background-color: #B7E4E1;
+}
+
+#home .jumbotron_container{
+    background-color: white;
+    /*max-width: 2000px;
+    width: 2000px;*/
+}
+
+#home .jumbotron{
+    height: 450px;
+    overflow: hidden;
+    padding: 0;
+    margin-top: 55px;
+    /*background-image: url("../resources/site/diapoChat2.jpg");*/
+}
+
+#home .jumbotron img{
+    width: 100%;
+}
+
+#home .jumbotron p, #home .jumbotron h1{
+    position: absolute;
+}
+
+#home .container{
+    max-width: 1100px;
+}
+
+
+#home .main_contain{
+    background-color: white;
+    padding-right: 50px;
+    padding-left: 50px;
+}

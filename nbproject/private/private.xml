@@ -2,24 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/D:/Programmes/wamp/www/keepcat/Model/m_animals.php</file>
-            <file>file:/D:/Programmes/wamp/www/keepcat/Controller/c_animals.php</file>
-            <file>file:/D:/Programmes/wamp/www/keepcat/Controller/c_propose.php</file>
-            <file>file:/D:/Programmes/wamp/www/keepcat/Controller/c_home.php</file>
-            <file>file:/D:/Programmes/wamp/www/keepcat/Controller/c_connection.php</file>
-            <file>file:/D:/Programmes/wamp/www/keepcat/View/proposer.php</file>
-            <file>file:/D:/Programmes/wamp/www/keepcat/Controller/c_snapchat.php</file>
-            <file>file:/D:/Programmes/wamp/www/keepcat/Model/m_main.php</file>
-            <file>file:/D:/Programmes/wamp/www/keepcat/View/animaux.php</file>
-            <file>file:/D:/Programmes/wamp/www/keepcat/View/accueil.php</file>
-            <file>file:/D:/Programmes/wamp/www/keepcat/View/profil.php</file>
-            <file>file:/D:/Programmes/wamp/www/keepcat/Controller/c_profil.php</file>
-            <file>file:/D:/Programmes/wamp/www/keepcat/Controller/c_contact.php</file>
-            <file>file:/D:/Programmes/wamp/www/keepcat/Model/m_photos.php</file>
-            <file>file:/D:/Programmes/wamp/www/keepcat/index.php</file>
-            <file>file:/D:/Programmes/wamp/www/keepcat/Model/m_users.php</file>
-            <file>file:/D:/Programmes/wamp/www/keepcat/CSS/common.css</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>
