@@ -23,7 +23,8 @@
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Accueil</a></li>
+            <li><a href="#"><button type="button" class="btn btn-xs btn-primary">Rechercher</button></a></li>
+            <li><a href="#"><button type="button" class="btn btn-xs btn-success">Se proposer</button></a></li>
             <li><a href="#">S'inscrire</a></li>
             <li><a href="#">Se connecter</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -40,31 +41,30 @@
           <p class="pull-right visible-xs">
             <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
           </p>
-          <div class="jumbotron_container">
-            <div class="jumbotron">
-                <h1>Faite garder votre chat !</h1>
-                <p>Ne laissez pas votre chat seul pendant les vacances</p>
-                <img src="resources/site/diapoChat2.jpg">
-              </div>
+        <div class="jumbotron">
+            <h1>Ne laissez pas votre chat seul pendant les vacances</h1>
+            <p>KeepCat vous permet de rencotrer des personnes de confiance pouvant s'occuper de votre chat.</p>
+            <img src="resources/site/diapoChat2.jpg">
           </div>
           <div class="row">
             <div class="col-6 col-sm-6 col-lg-4">
                 <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
-                <h2>Wiki</h2>
-                <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-                <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+                <h2>Faites garder votre chat</h2>
+                <p>Recherchez une personne pouvant garder votre chat près de chez vous. Parmi tous les profils de gardien sélectionnez la personne qui pourra s'occuper de votre chat pendant votre abscence.</p>
+                <p><a class="btn btn-default" href="#" role="button">Rechercher »</a></p>
             </div>
             <div class="col-6 col-sm-6 col-lg-4">
               <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
-                <h2>Gardez votre chat</h2>
-                <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-                <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+                <h2>Devenez gardien de chat</h2>
+                <p>Vous aimez les chat, et vous voulez gagner un peu d'argent. Pourquoi ne pas vous proposer en tant que gardien de chat.
+                    Cela vous permettrait de garder le chat d'un utilisateur pendant quelques temps moyennant rémunération.</p>
+                <p><a class="btn btn-default" href="#" role="button">Se proposer »</a></p>
             </div><!--/span-->
             <div class="col-6 col-sm-6 col-lg-4">
               <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
-                <h2>Découvrer notre appli mobile</h2>
-                <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-                <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+                <h2>Découvrez notre appli mobile</h2>
+                <p>Grâce à notre application mobile vous pourrez recevoir de photo de votre chat prise par son gardien. Vous pourrez aussi savoir quels gardiens de chat sont les plus près de votre position en temps réel.</p>
+                <p><a class="btn btn-default" href="#" role="button">En savoir plus »</a></p>
             </div><!--/span-->
             <div class="col-6 col-sm-6 col-lg-4">
               <h2>Heading</h2>
@@ -103,7 +103,7 @@
       <hr>
 
       <footer>
-        <p>© Company 2014</p>
+        <p>© KeepCat Company 2014</p>
       </footer>
 
     </div><!--/.container-->
