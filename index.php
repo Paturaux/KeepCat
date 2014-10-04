@@ -42,6 +42,8 @@ else{
                 break;
             case 'proposer': require_once 'Controller/c_propose.php';
                 break;
+            case 'wikichat': require_once 'Controller/c_wikichat.php';
+                break;
 
             case 'deconnexion':
                 session_destroy();
