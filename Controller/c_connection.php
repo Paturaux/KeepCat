@@ -1,4 +1,11 @@
 <?php
+$location;
+if(isset($_SESSION['screen']) and $_SESSION['screen'] == 'phone'){
+    $location = 'View/connexion.php';
+}
+else{
+    $location = 'ViewWS/v_connection.php';
+}
 
 // step == verif : on en est Ã  l'Ã©tape de vÃ©rification
 if (isset($_GET['step']) and $_GET['step'] == 'verif') {
@@ -16,12 +23,16 @@ if (isset($_GET['step']) and $_GET['step'] == 'verif') {
             $_SESSION['mail'] = $user->mail;
             $_SESSION['name'] = $user->name;
             $_SESSION['first_name'] = $user->first_name;
-            header('Location: index.php?page=accueil');
+            if(isset($_GET['dst'])){
+                header('Location: index.php?page='.strip_tags($_GET['dst']));
+            }
+            else
+                header('Location: index.php?page=accueil');
         }
     }
-    require_once 'View/connexion.php';
+    require_once $location;
 } else {
-    require_once 'View/connexion.php';
+    require_once $location;
 }
     
     

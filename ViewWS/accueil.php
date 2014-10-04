@@ -1,39 +1,7 @@
-<html>
-    <head>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="CSS/bootstrap/bootstrap.min.css" rel="stylesheet">
-        <link href="CSS/commonWS.css" rel="stylesheet" media="screen">
-        <link rel="icon" href="../../favicon.ico">
-
-        <title>Accueil - KeepCat</title>
-  </head>
-
-  <body id="home">
-    <div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-            <a class="navbar-brand title_logo" href="#"><img src="resources/logo.png"></a>
-        </div>
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="#"><button type="button" class="btn btn-xs btn-primary">Rechercher</button></a></li>
-            <li><a href="#"><button type="button" class="btn btn-xs btn-success">Se proposer</button></a></li>
-            <li><a href="#">S'inscrire</a></li>
-            <li><a href="#">Se connecter</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div><!-- /.nav-collapse -->
-      </div><!-- /.container -->
-    </div><!-- /.navbar -->
-
-    <div class="container main_contain">
+<?php 
+    $title = 'Accueil';
+    require_once 'head.php';
+?>
         
       <div class="row row-offcanvas">
           
@@ -100,30 +68,4 @@
         </div>/span-->
       </div><!--/row-->
 
-      <hr>
-
-      <footer>
-        <p>© KeepCat Company 2014</p>
-      </footer>
-
-    </div><!--/.container-->
-
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-
-    <script src="offcanvas.js"></script>
-  
-
-<div id="spreed-overlay"><img src="chrome-extension://ipikiaejjblmdopojhpejjmbedhlibno/close_icon.png" style="float: left; margin-bottom: 3px; position: absolute; left: 0px; top: 0px; cursor: pointer;"><a style="cursor: pointer;">&lt; 1 min to Spreed</a></div>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script src="JS/bootstrap.min.js"></script>
-    </body>
-</html>
+<?php require_once 'footer.php';

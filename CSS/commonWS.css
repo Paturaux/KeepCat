@@ -14,10 +14,20 @@ body{
     margin: auto;
 }
 
+.contain_corps{
+    max-width: 1100px;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
 .title_logo{
     padding: 0 10px 0 0;
 }
 
+.navbar-collapse li{
+    
+    margin-bottom: -2px; /*Peremt la bonne taille de boutons */
+}
 .title_logo img{
     height: 100%;
 }
@@ -77,8 +87,6 @@ body{
     overflow: hidden;
     padding: 0;
     margin-top: 55px;
-    
-    /*background-image: url("../resources/site/diapoChat2.jpg");*/
 }
 
 #home .jumbotron img{
@@ -121,4 +129,62 @@ body{
     position: relative;
     /*background-color: rgba(255,255,255, 0.9);
     z-index: 999;*/
+}
+
+
+
+/* ------------------------- Rechercher ------------------*/
+
+#search h1{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 3.4em;
+}
+
+#search p{
+    font-size: 1.4em;
+}
+
+#search #form_search{
+    max-width: 900px;
+    min-width: 310px;
+    margin: auto;
+}
+
+#search .input-group img{
+    height: 20px;
+}
+
+#search .input-group{
+    margin-bottom: 20px;
+}
+
+#search .inpt-date{
+    max-width: 310px;
+}
+
+#search tr, #search th{
+    text-align: center;
+}
+
+
+/* ------------------------------ Page connexion ---------------- */
+
+#connection form{
+    max-width:300px;
+}
+
+#connection .input-group{
+    margin-bottom: 12px;
+}
+
+
+#connection .input-group img{
+    height: 20px;
+}
+
+#connection form input[type="submit"]{
+    display: block;
+    margin: auto;
 }

@@ -1,4 +1,4 @@
-<?php include_once './head.html'; ?>
+<?php include_once './head.php'; ?>
 
 <body>
     <?php headerTop('Accueil'); ?>
