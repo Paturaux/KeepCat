@@ -3,11 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/Programmes/wamp/www/keepcat/ViewWS/v_connection.php</file>
             <file>file:/D:/Programmes/wamp/www/keepcat/head.php</file>
+            <file>file:/D:/Programmes/wamp/www/keepcat/Controller/c_propose.php</file>
             <file>file:/D:/Programmes/wamp/www/keepcat/Controller/c_search.php</file>
+            <file>file:/D:/Programmes/wamp/www/keepcat/Model/m_users.php</file>
             <file>file:/D:/Programmes/wamp/www/keepcat/CSS/commonWS.css</file>
-            <file>file:/D:/Programmes/wamp/www/keepcat/Controller/c_connection.php</file>
+            <file>file:/D:/Programmes/wamp/www/keepcat/ViewWS/v_search.php</file>
+            <file>file:/D:/Programmes/wamp/www/keepcat/View/animaux.php</file>
+            <file>file:/D:/Programmes/wamp/www/keepcat/ViewWS/v_propose.php</file>
         </group>
     </open-files>
 </project-private>
