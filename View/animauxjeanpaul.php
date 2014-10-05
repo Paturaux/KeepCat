@@ -1,42 +1,74 @@
 <?php include_once './head.php'; ?>
 
 <body>
-    <header>
-        <a href="rechercher.php"><img src="resources/icones/back.png" id="iconeHeaderGauche"/></a>
-        <p id="titre">Jean Paul</p>
-        <a href="#"><img src="resources/icones/settings.png"  id="iconeHeaderDroit"/></a>
-    </header>
-    
+    <?php headerTop('Jean Paul', $retPage); ?>
+
     <div id="menuProfil">
-        <a href="profiljeanpaul.php"><div id="ongletProfilGauche">Profil</div></a><!--
+        <a href="index.php?page=profiljeanpaul"><div id="ongletProfilGauche">Profil</div></a><!--
         --><a href="#"><div id="ongletProfilCentre" style="color:#fff;background:#2789e4;">Animaux</div></a><!--
-        --><a href="avisjeanpaul.php"><div id="ongletProfilDroit">Avis</div></a>
+        --><a href="index.php?page=avisjeanpaul"><div id="ongletProfilDroit">Avis</div></a>
     </div>
-    
-    <div class="animal">
-        <img src="resources/chat1.jpg" class="chat"/>
-        <p class="nom">F&eacute;lix</p>
-        <p class="age"><img src="resources/icones/birthday.png"/>4 ans</p>
-        <p class="race"><img src="resources/icones/cat_footprint.png"/>American</p>
-        <img src="resources/icones/up_black.png" class="fleche"/>
-    </div>
-    <div id="description">
-        
-    </div>
-    <div class="animal">
-        <img src="resources/chat2.jpg" class="chat"/>
-        <p class="nom">Micka</p>
-        <p class="age"><img src="resources/icones/birthday.png"/>6 ans</p>
-        <p class="race"><img src="resources/icones/cat_footprint.png"/>Ragdoll</p>
-        <img src="resources/icones/down_black.png" class="fleche"/>
-    </div>
-    <div class="animal">
-        <img src="resources/chat3.jpg" class="chat"/>
-        <p class="nom">Adora</p>
-        <p class="age"><img src="resources/icones/birthday.png"/>1 ans</p>
-        <p class="race"><img src="resources/icones/cat_footprint.png"/>Exotic</p>
-        <img src="resources/icones/down_black.png" class="fleche"/>
-    </div>
+
+    <?php
+    if (!empty($animals)) {
+        foreach ($animals as $animal) {
+            $date1 = new dateTime(date('Y-m-d'));
+            $date2 = new dateTime($animal['b_date']);
+            echo '<div class="animal">
+                    <img src="' . $animal['src'] . '" class="chat"/>
+                    <p class="nom">' . $animal['name'] . '</p>
+                    <p class="age"><img src="resources/icones/birthday.png"/>' . ($date1->diff($date2)->format('%y%')) . ' ans</p>
+                    <p class="race"><img src="resources/icones/cat_footprint.png"/>' . $animal['race'] . '</p>
+                    <img src="resources/icones/down_black.png" class="fleche" onclick="unroll(this, ' . $animal['num'] . ')"/>
+                </div>
+                <div id="' . $animal['num'] . '" class="description">' . $animal['description'] . '</div>';
+        }
+    }
+    ?>
+
+
+    <script type="text/javascript">
+        var listUnr = [];
+        function unroll(src, idDesc) {
+            var descElem = document.getElementById(idDesc);
+            var height = parseInt(descElem.style.height);
+            height = (isNaN(height)) ? 0 : height;
+            animate = {
+                delay: 5,
+                step: null
+            };
+
+            if (listUnr[idDesc] === undefined) {
+                src.src = 'resources/icones/up_black.png';
+                listUnr[idDesc] = 'unr'; // la description est en train de descendre
+                if (height <= 0)
+                    descElem.style.visibility = 'visible';
+                animate.step = function frameUnroll() {
+                    height++;
+                    descElem.style.height = height + 'px';
+                    if (height >= 65 || listUnr[idDesc] === undefined) { // Condition d'arrêt
+                        clearInterval(timer);
+                    }
+                }
+            }
+            else {
+                src.src = 'resources/icones/down_black.png';
+                listUnr[idDesc] = undefined;
+                animate.step = function frameRoll() {
+                    height--;
+                    descElem.style.height = height + 'px';
+                    if (height <= 0)
+                        descElem.style.visibility = 'hidden';
+                    if (height <= 0 || listUnr[idDesc] === 'unr') { // Condition d'arrêt
+                        clearInterval(timer);
+                    }
+                }
+            }
+            var timer = setInterval(animate.step, animate.delay);
+        }
+
+
+    </script>
     
     <footer>
         <a href="#"><span class="boutonMenuBasSeul"><img src="resources/icones/plus.png"/>Demander la garde</span></a>

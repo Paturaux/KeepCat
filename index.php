@@ -40,6 +40,12 @@ else{
                 break;
             case 'rechercher': require_once 'Controller/c_search.php';
                 break;
+            case 'profiljeanpaul': require_once 'Controller/c_profiljeanpaul.php';
+                break;
+            case 'animauxjeanpaul': require_once 'Controller/c_animalsjeanpaul.php';
+                break;
+            case 'avisjeanpaul': require_once 'Controller/c_opinionsjeanpaul.php';
+                break;
             case 'proposer': require_once 'Controller/c_propose.php';
                 break;
             case 'wikichat': require_once 'Controller/c_wikichat.php';
