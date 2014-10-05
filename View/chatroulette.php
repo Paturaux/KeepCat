@@ -4,22 +4,20 @@
     <?php headerTop('Chat-Roulette', $retPage); ?>
 
     <div class="bulleDroite bulle">
-        ldsihfdifds ksdg sdjkgsdgu sdjgnsdl bsdkjg bsdgsd gisdopg sdog
+        Bonjour, je vous contact car j'aimerai avoir un peux plus de renseignements sur vous car je cherche quelqu'un pour garder mes deux petits chatons pendant deux semaines.
+        <div class="losange"></div>
     </div>
     <div class="bulleGauche bulle">
-        ldsihfdifds ksdg sdjkgsdgu sdjgnsdl bsdkjg bsdgsd gisdopg sdog
+        Oui, aucun pr&ocirc;bl&egrave;me. Qu'est-ce que vous voulez savoir ?
+        <div class="losange"></div>
     </div>
     <div class="bulleDroite bulle">
-        ldsihfdifds ksdg  bsdkjg bsdgsd gisdopg sdog
+        J'aimerai savoir si c'est la premi&egrave;re fois que ovus gardez des chats et aussi si vous en avez d&eacute;j&agrave; eu en votre possession ?
+        <div class="losange"></div>
     </div>
     <div class="bulleGauche bulle">
-        ldsihfdifds ksdg sdjkgsdgu sdjgnsdl b gisdopg sdog
-    </div>
-    <div class="bulleDroite bulle">
-        ldsihfdifds ksdg sdjgnsdl bsdkjg bsdgsd gisdopg sdog
-    </div>
-    <div class="bulleGauche bulle">
-        bsdkjg bsdgsd gisdopg sdog
+        Oui, je suis un habitué et je poss&eacute;dai de nombreux animaux dans mon...
+        <div class="losange"></div>
     </div>
 
     <footer>
