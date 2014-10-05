@@ -44,11 +44,17 @@ CREATE TABLE IF NOT EXISTS `animal` (
   );
   
 INSERT INTO `animal` (`num`, `name`, `race`, `b_date`, `description`, `numUser`, `numPhoto`) VALUES
-(1, 'FÃ©lix', 'American', '2010-00-00', 'test', 1, 1);
+(1, 'Félix', 'American', '2010-00-00', 'Chat calme et propre, il n\'aime pas être seul et adore les gratouilles. Il mange de tout.', 1, 1);
 INSERT INTO `animal` (`num`, `name`, `race`, `b_date`, `description`, `numUser`, `numPhoto`) VALUES
-(2, 'Micka', 'Ragdoll', '2008-00-00', 'test2', 1, 2);
+(2, 'Micka', 'Ragdoll', '2008-00-00', 'Chat calme et propre, il n\'aime pas être seul et adore les gratouilles. Il mange de tout.', 1, 2);
 INSERT INTO `animal` (`num`, `name`, `race`, `b_date`, `description`, `numUser`, `numPhoto`) VALUES
-(3, 'Adora', 'Exotic', '2013-00-00', 'test3', 1, 3);
+(3, 'Adora', 'Exotic', '2013-00-00', 'Chat calme et propre, il n\'aime pas être seul et adore les gratouilles. Il mange de tout.', 1, 3);
+INSERT INTO `animal` (`num`, `name`, `race`, `b_date`, `description`, `numUser`, `numPhoto`) VALUES
+(4, 'Félix', 'American', '2010-00-00', 'Chat calme et propre, il n\'aime pas être seul et adore les gratouilles. Il mange de tout.', 2, 1);
+INSERT INTO `animal` (`num`, `name`, `race`, `b_date`, `description`, `numUser`, `numPhoto`) VALUES
+(5, 'Micka', 'Ragdoll', '2008-00-00', 'Chat calme et propre, il n\'aime pas être seul et adore les gratouilles. Il mange de tout.', 2, 2);
+INSERT INTO `animal` (`num`, `name`, `race`, `b_date`, `description`, `numUser`, `numPhoto`) VALUES
+(6, 'Adora', 'Exotic', '2013-00-00', 'Chat calme et propre, il n\'aime pas être seul et adore les gratouilles. Il mange de tout.', 2, 3);
 
 
 DROP TABLE IF EXISTS `photo`;

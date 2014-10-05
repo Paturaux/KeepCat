@@ -287,11 +287,12 @@ div#generalProfil span#note{
 }
 div#corpsProfil{
     margin: 10px 10px;
-    height: 300px;
-    width: 303px;
+    padding: 3px 7px;
+    width: 289px;
     border: solid 1px #ccc;
     box-shadow: 1px 1px 3px #ccc;
     background-color: #fff;
+    text-align: justify;
 }
 
 /* ANIMAUX */
@@ -304,7 +305,8 @@ div.animal{
     border: solid 1px #ccc;
     box-shadow: 1px 1px 3px #ccc;
     background-color: #fff;
-    z-index: 1000;
+    z-index: 1000;    
+    overflow: hidden;
 }
 div.animal img.chat{
     float: left;
@@ -337,15 +339,19 @@ div.animal img.fleche{
     cursor: pointer;
 }
 div.description{
+    position: relative;
     display: block;
     margin: -11px 10px 10px 10px;
+    padding: 3px 7px;
     height: 0;
-    width: 303px;
+    width: 289px;
     border: solid 1px #ccc;
+    border-top: none;
     background-color: #fff;
-    z-index: 0;
+    text-align: justify;
     overflow: hidden;
     visibility: hidden;
+    z-index: 0;
 }
 
 /* AVIS */
@@ -357,7 +363,7 @@ p#note{
 div#barreEtoile{
     display: block;
     margin: 0px auto;
-    width: 142px;   
+    width: 142px;  
 }
 button#boutonVoter{
     float: right;
@@ -384,7 +390,7 @@ div.commentaire p.auteurAvis{
 }
 div.commentaire div.noteAvis{
     float: right;
-    margin: -22px 3px 0px 0px;
+    margin: -21px 4px -20px 0px;
 }
 div.commentaire div.noteAvis img{
     height: 15px;
