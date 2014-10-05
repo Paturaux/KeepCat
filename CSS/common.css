@@ -687,7 +687,6 @@ button#validerDisponibilite{
 /* WIKI CHAT */
 div.cadre_article_wiki{
     margin: 10px 10px;
-    height: 115px;
     width: 303px;
     border: solid 1px #ccc;
     box-shadow: 1px 1px 3px #ccc;
@@ -722,11 +721,11 @@ div p.text_preview_articles_wiki{
     line-height: 100%;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 3px;
 }
 
 div.article_wiki{
     margin: 10px 10px;
-    height: 510px;
     width: 303px;
     border: solid 1px #ccc;
     box-shadow: 1px 1px 3px #ccc;
@@ -753,5 +752,6 @@ div p.text_articles_wiki{
     line-height: 120%;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 2px;
     text-align: justify;
 }

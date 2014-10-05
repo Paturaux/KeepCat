@@ -4,15 +4,15 @@
     <?php headerTop('Wiki-Chat', $retPage); ?>
 
     <a href="index.php?page=article1_wiki">
-    <div class="cadre_article_wiki">
-        <img class="image_h1_article" src="resources/icones/number_1.png"/>
-        <h1 class="titre_article_wiki">
-            Comment nettoyer son chat ?
-        </h1>
-        <p class="text_preview_articles_wiki">
-            " La plupart des chats craignent l’eau, c’est vrai en général mais c’est tout autre chose si vous l’avez habitué à prendre des bains depuis tout petit... "
-        </p>
-    </div>
+        <div class="cadre_article_wiki">
+            <img class="image_h1_article" src="resources/icones/number_1.png"/>
+            <h1 class="titre_article_wiki">
+                Comment nettoyer son chat ?
+            </h1>
+            <p class="text_preview_articles_wiki">
+                " La plupart des chats craignent l’eau, c’est vrai en général mais c’est tout autre chose si vous l’avez habitué à prendre des bains depuis tout petit... "
+            </p>
+        </div>
     </a>
     <div class="cadre_article_wiki">
         <img class="image_h1_article" src="resources/icones/number_2.png"/>
