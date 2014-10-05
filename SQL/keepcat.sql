@@ -12,7 +12,7 @@ CREATE TABLE IF NOT EXISTS `user` (
   `b_date` date NOT NULL COMMENT 'Date de naissance',
   `location` varchar(50) NOT NULL,
   `price` TINYINT NOT NULL,
-  `mark` float(11) NULL
+  `mark` float(11) NULL,
   PRIMARY KEY (`num`)
 );
 
