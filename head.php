@@ -47,16 +47,31 @@ if(isset($_SESSION['screen']) and $_SESSION['screen'] == 'phone'){
               <?php if(!isset($_SESSION['name'])){ ?>
                <li class="login" onclick="activeMe(this, 'signin');"><a href="#">Se connecter</a></li> 
                <li class="login" onclick="activeMe(this, 'signup');"><a href="#">S'inscrire</a></li>
-              
               <?php } else{
                   echo '<li><a href="index.php?page=deconnexion"><img src="resources/site/shutdown.png"/> Déconnexion</a></li> ';
               }
               ?>
-          
+          <div class="login-frame" id="div_login" style="display: none;">
+            <h3>Connexion</h3>
+            <form method="post" action="index.php?page=connexion&step=verif">
+              <div class="input-group">
+                <span class="input-group-addon"><img src="resources/site/contacts.png"/></span>
+                <input type="text" name="mail" class="form-control" placeholder="Adresse mail">
+              </div>
+
+              <div class="input-group">
+                <span class="input-group-addon"><img src="resources/site/key.png"/></span>
+                <input type="password" name="pass" class="form-control" placeholder="Mot de passe">
+              </div>
+              <input type="submit" value="Connexion" class="btn btn-lg btn-info">
+            </form>
+          </div>
           </ul>
         </div><!-- /.nav-collapse -->
       </div><!-- /.container -->
+      
     </div><!-- /.navbar -->
+    
 
     <div class="container main_contain">
 

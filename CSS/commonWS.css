@@ -32,6 +32,28 @@ body{
     height: 100%;
 }
 
+.login-frame{
+    margin-top: 50px;
+    position: absolute;
+    background-color: black;
+    width: 320px;
+    float: right;
+    padding: 0 25px 25px 25px;
+}
+
+.login-frame .input-group{
+    margin-bottom: 20px;
+}
+
+.login-frame .input-group img{
+    height: 20px;
+}
+
+.login-frame input[type="submit"]{
+    display: block;
+    width: 270px;
+}
+
 #choice_screen{
     background-color: #02b7aa;
     color: white;

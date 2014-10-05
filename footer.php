@@ -8,25 +8,28 @@
 
     <script type="text/javascript">
         var loginMenu = Array();
-        
+        var divLogin;
         window.onload = function(){
             loginMenu = document.getElementsByClassName('login');
+            divLogin = document.getElementById('div_login');
         };
         
         function activeMe(elem, name){
-            //console.log(loginMenu);
-            //console.log(elem.className);
+            
             for(var i=0; i < loginMenu.length; i++){
                 if(loginMenu[i] !== elem){
-                    console.log(loginMenu[i]);
-                    loginMenu[i].className = loginMenu[i].className.replace(' active', "");
-                            
+                    loginMenu[i].className = loginMenu[i].className.replace(' active', "");     
                 }
             }
             if(elem.className.indexOf('active') == -1){
                 elem.className += " active";
+                divLogin.style.display = 'block';
+                
             }
-            
+            else{
+                divLogin.style.display = 'none';
+                elem.className = elem.className.replace(' active', "");
+            }
         }
         
         
