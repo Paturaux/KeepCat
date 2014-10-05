@@ -12,10 +12,12 @@
     <?php 
     if(!empty($animals)){
         foreach($animals as $animal){
+            $date1 = new dateTime(date('Y-m-d'));
+            $date2 = new dateTime($animal['b_date']);
             echo '<div class="animal">
                     <img src="'.$animal['src'].'" class="chat"/>
                     <p class="nom">'.$animal['name'].'</p>
-                    <p class="age"><img src="resources/icones/birthday.png"/>'.(new dateTime(date('Y-m-d')))->diff(new dateTime($animal['b_date']))->format('%y%').' ans</p>
+                    <p class="age"><img src="resources/icones/birthday.png"/>'.($date1->diff($date2)->format('%y%')).' ans</p>
                     <p class="race"><img src="resources/icones/cat_footprint.png"/>'.$animal['race'].'</p>
                     <img src="resources/icones/up_black.png" class="fleche" onclick="unroll(this, '.$animal['num'].')"/>
                 </div>
