@@ -11,7 +11,7 @@
           </p>
         <div class="jumbotron">
             <h1>Ne laissez pas votre chat seul pendant les vacances</h1>
-            <p>KeepCat vous permet de rencotrer des personnes de confiance pouvant s'occuper de votre chat.</p>
+            <p>KeepCat vous permet de rencontrer des personnes de confiance pouvant s'occuper de votre chat.</p>
             <img src="resources/site/diapoChat2.jpg">
           </div>
           <div class="row">
