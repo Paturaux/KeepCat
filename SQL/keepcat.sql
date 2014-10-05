@@ -12,22 +12,24 @@ CREATE TABLE IF NOT EXISTS `user` (
   `b_date` date NOT NULL COMMENT 'Date de naissance',
   `location` varchar(50) NOT NULL,
   `price` TINYINT NOT NULL,
+  `mark` float(11) NULL
   PRIMARY KEY (`num`)
 );
 
-INSERT INTO `user` (`num`, `name`, `pass`, `first_name`, `mail`, `num_phone`, `b_date`, `location`, `price`) VALUES
-(1, 'Menubarbe', 'admin', 'sylvio', 'tlgman@hotmail.fr', '00 00 00 00 00', '1994-01-11', 'Lyon', 20);
-INSERT INTO `user` (`num`, `name`, `pass`, `first_name`, `mail`, `num_phone`, `b_date`, `location`, `price`) VALUES
-(2, 'Paturaux', 'admin', 'florian', 'pat42410@hotmail.fr', '00 00 00 00 00', '1994-01-11', 'Lyon', 17);
-INSERT INTO `user` (`num`, `name`, `pass`, `first_name`, `mail`, `num_phone`, `b_date`, `location`, `price`) VALUES
-(3, 'Rongeard', 'admin', 'benoit', 'benoit@hotmail.fr', '00 00 00 00 00', '1994-01-11', 'Lyon', 12);
-INSERT INTO `user` (`num`, `name`, `pass`, `first_name`, `mail`, `num_phone`, `b_date`, `location`, `price`) VALUES
-(4, 'Miniot', 'admin', 'samuel', 'sam@hotmail.fr', '00 00 00 00 00', '1994-01-11', 'Lyon', 33);
-INSERT INTO `user` (`num`, `name`, `pass`, `first_name`, `mail`, `num_phone`, `b_date`, `location`, `price`) VALUES
-(5, 'Charles', 'admin', 'jean paul', 'jpcharles@hotmail.fr', '00 00 00 00 00', '1994-01-11', 'Lyon', 19);
-INSERT INTO `user` (`num`, `name`, `pass`, `first_name`, `mail`, `num_phone`, `b_date`, `location`, `price`) VALUES
-(6, 'Hubert', 'admin', 'yohan', 'yoyohub@hotmail.fr', '00 00 00 00 00', '1994-01-11', 'Lyon', 15);
-
+INSERT INTO `user` (`num`, `name`, `pass`, `first_name`, `mail`, `num_phone`, `b_date`, `location`, `price`,`mark`) VALUES
+(1, 'Menubarbe', 'admin', 'sylvio', 'tlgman@hotmail.fr', '00 00 00 00 00', '1994-01-11', 'Lyon', 20, 4.2);
+INSERT INTO `user` (`num`, `name`, `pass`, `first_name`, `mail`, `num_phone`, `b_date`, `location`, `price`, `mark`) VALUES
+(2, 'Paturaux', 'admin', 'florian', 'pat42410@hotmail.fr', '00 00 00 00 00', '1994-01-11', 'Lyon', 17, 4.4);
+INSERT INTO `user` (`num`, `name`, `pass`, `first_name`, `mail`, `num_phone`, `b_date`, `location`, `price`, `mark`) VALUES
+(3, 'Rongeard', 'admin', 'benoit', 'benoit@hotmail.fr', '00 00 00 00 00', '1994-01-11', 'Lyon', 12, 3.5);
+INSERT INTO `user` (`num`, `name`, `pass`, `first_name`, `mail`, `num_phone`, `b_date`, `location`, `price`, `mark`) VALUES
+(4, 'Miniot', 'admin', 'samuel', 'sam@hotmail.fr', '00 00 00 00 00', '1994-01-11', 'Lyon', 33, 4.1);
+INSERT INTO `user` (`num`, `name`, `pass`, `first_name`, `mail`, `num_phone`, `b_date`, `location`, `price`, `mark`) VALUES
+(5, 'Charles', 'admin', 'jean paul', 'jpcharles@hotmail.fr', '00 00 00 00 00', '1994-01-11', 'Lyon', 19, 1.6);
+INSERT INTO `user` (`num`, `name`, `pass`, `first_name`, `mail`, `num_phone`, `b_date`, `location`, `price`, `mark`) VALUES
+(6, 'Hubert', 'admin', 'yohan', 'yoyohub@hotmail.fr', '00 00 00 00 00', '1994-01-11', 'Lyon', 15, 2.5);
+INSERT INTO `user` (`num`, `name`, `pass`, `first_name`, `mail`, `num_phone`, `b_date`, `location`, `price`, `mark`) VALUES
+(7, 'Dagobert', 'admin', 'yohan', 'jeajean@hotmail.fr', '00 00 00 00 00', '1994-01-11', 'Lyon', 15, 2.9);
 
 DROP TABLE IF EXISTS `animal`;
 CREATE TABLE IF NOT EXISTS `animal` (
