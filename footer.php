@@ -8,11 +8,9 @@
 
     <script type="text/javascript">
         var loginMenu = Array();
+        
         window.onload = function(){
             loginMenu = document.getElementsByClassName('login');
-            var dd = "active gg";
-            dd.replace('active', 'dd');
-            console.log(dd);
         };
         
         function activeMe(elem, name){

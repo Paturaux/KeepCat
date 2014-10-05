@@ -168,6 +168,26 @@ body{
     text-align: center;
 }
 
+#search .btn-search{
+    font-size: 1.5em;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#search .good-mark{
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #3FF93F;
+}
+
+#search .bad-mark{
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #F71911;
+}
 
 /* ------------------------------ Page connexion ---------------- */
 

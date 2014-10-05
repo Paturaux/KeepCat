@@ -27,7 +27,7 @@ require_once 'head.php';
             </span>
         </div>
         <div class="input-group">
-            <span class="input-group-addon"><img src="resources/site/search-24.png"/></span>
+            <span class="input-group-addon"><img src="resources/site/tag.png"/></span>
             <input type="text" class="form-control" placeholder="Nom ou mots clé">
         </div>
         <div class="input-group">
@@ -39,15 +39,16 @@ require_once 'head.php';
         </div>
         <div class="btn-group btn-group-justified">
             <div class="btn-group">
-              <button type="button" class="btn btn-default">Trier par note</button>
+                <button type="button" class="btn btn-default order-btn" onclick="selectOrder(this, 'mark');">Trier par note</button>
             </div>
             <div class="btn-group">
-              <button type="button" class="btn btn-default">Trier par prix</button>
+              <button type="button" class="btn btn-default order-btn" onclick="selectOrder(this, 'price');">Trier par prix</button>
             </div>
             <div class="btn-group">
-              <button type="button" class="btn btn-default">Trier par nom</button>
+              <button type="button" class="btn btn-default order-btn" onclick="selectOrder(this, 'name');">Trier par nom</button>
             </div>
        </div>
+        <button class="btn-search btn btn-lg btn-info"><img src="resources/site/search.png"/>  Rechercher</button>
     </form>
     <hr>
     <table class="table table-striped">
@@ -57,16 +58,44 @@ require_once 'head.php';
             <th>Prix</th>
             <th>Note</th>
         </tr>
-        <tr>
-            <td>Test</td>
-            <td>Test</td>
-            <td>Test</td>
-            <td>Test</td>
-        </tr>
-
+        <?php 
+        if(isset($listeUsers)){
+            foreach($listeUsers as $user){
+                echo '<tr>'
+                    .'<td>dd</td>'
+                    .'<td>'.$user['name'].'</td>'
+                    .'<td>'.$user['price'].'</td>'
+                    .'<td '.(($user['mark'] <= 2)? 'class="bad-mark"':'class="good-mark"').'>'.$user['mark'].'</td>'
+                    .'</tr>';
+            }
+        }
+        
+        ?>
     </table>
 </div>
+<script type="text/javascript">
+    var listBttOrder = [];
+    window.addEventListener('load', function(){
+        listBttOrder = document.getElementsByClassName('order-btn');
+    }, false);
+
+
+    function selectOrder(elem, orderType){
+            //console.log(listBttOrder);
+            //console.log(elem.className);
+            for(var i=0; i < listBttOrder.length; i++){
+                if(listBttOrder[i] !== elem){
+                    console.log(listBttOrder[i]);
+                    listBttOrder[i].className = listBttOrder[i].className.replace(' active', "");     
+                }
+            }
+            if(elem.className.indexOf('active') == -1){
+                elem.className += " active";
+            }
+            
+        }
     
+</script>
 <?php
 require_once 'footer.php';
 

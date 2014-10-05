@@ -34,3 +34,14 @@ function get_user_infos($num) {
     $quer->execute(array(':num' => $num));
     return $quer->fetch(PDO::FETCH_OBJ);
 }
+/*
+    Retourne une liste d'utilisateurs (Pour la page recherche)
+    @param nId: l'id de l'utilisateur courrant(pour ne pas le sélectionner)
+ *  @param order: par quel champs on veut ordonner le retour
+*/
+function get_users($nId, $order = 'mark'){
+    global $db;
+    $quer = $db->prepare("SELECT * FROM user WHERE num <> :nId ORDER BY ".$order." DESC");
+    $quer->execute(array(':nId' => $nId));
+    return $quer->fetchAll();
+}
