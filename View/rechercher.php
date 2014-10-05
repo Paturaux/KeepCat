@@ -39,7 +39,7 @@
         <p class="nom">Yves</p>
         <p class="note" style="color:#40d32d;">4.2</p>
     </div>
-    <a href="profiljeanpaul.php">
+    <a href="index.php?page=profiljeanpaul">
         <div class="personneCherchee">
             <img src="resources/profil.png"/>
             <p class="nom">Jean Paul</p>

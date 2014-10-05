@@ -28,6 +28,7 @@
             <img src="resources/icones/star_vide.png"/>
         </div>
         <p class="commentaireAvis">
+            Bon gardien. Je n'ai eu aucun soucis avec lui.
         </p>
     </div>
     <div class="commentaire">
@@ -40,6 +41,7 @@
             <img src="resources/icones/star_vide.png"/>
         </div>
         <p class="commentaireAvis">
+            Pas ch&egrave;re mais j'ai retrouvé mon chat un peux plus maigre qu'avant.
         </p>
     </div>
     <div class="commentaire">
@@ -52,6 +54,7 @@
             <img src="resources/icones/star_pleine.png" />
         </div>
         <p class="commentaireAvis">
+            Excelent gardien et peux co&ucirc;teux je le recommande &agrave; tous les lyonnais souhaitant faire garder leur chat.
         </p>
     </div>
     <div class="commentaire">
@@ -64,6 +67,7 @@
             <img src="resources/icones/star_vide.png"/>
         </div>
         <p class="commentaireAvis">
+            Impeccable ! :)
         </p>
     </div>
     

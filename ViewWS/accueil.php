@@ -15,20 +15,20 @@
           </div>
           <div class="row">
             <div class="col-6 col-sm-6 col-lg-4">
-                <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+                <img class="img-circle" src="resources/icones/user_accueil.png" alt="Generic placeholder image" style="width: 120px; height: 120px; border-radius: 0%;">
                 <h2>Faites garder votre chat</h2>
                 <p>Recherchez une personne pouvant garder votre chat près de chez vous. Parmi tous les profils de gardien sélectionnez la personne qui pourra s'occuper de votre chat pendant votre abscence.</p>
                 <p><a class="btn btn-default" href="index.php?page=rechercher" role="button">Rechercher »</a></p>
             </div>
             <div class="col-6 col-sm-6 col-lg-4">
-              <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+              <img class="img-circle" src="resources/icones/search-36.png" alt="Generic placeholder image" style="width: 120px; height: 120px; border-radius: 0%;">
                 <h2>Devenez gardien de chat</h2>
                 <p>Vous aimez les chat, et vous voulez gagner un peu d'argent. Pourquoi ne pas vous proposer en tant que gardien de chat.
                     Cela vous permettrait de garder le chat d'un utilisateur pendant quelques temps moyennant rémunération.</p>
                 <p><a class="btn btn-default" href="index.php?page=proposer" role="button">Se proposer »</a></p>
             </div><!--/span-->
             <div class="col-6 col-sm-6 col-lg-4">
-              <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+              <img class="img-circle" src="resources/icones/smartphone_tablet-48.png" alt="Generic placeholder image" style="width: 120px; height: 120px; border-radius: 0%;">
                 <h2>Découvrez notre appli mobile</h2>
                 <p>Grâce à notre application mobile vous pourrez recevoir de photo de votre chat prise par son gardien. Vous pourrez aussi savoir quels gardiens de chat sont les plus près de votre position en temps réel.</p>
                 <p><a class="btn btn-default" href="#" role="button">En savoir plus »</a></p>

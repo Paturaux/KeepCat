@@ -21,7 +21,7 @@
     </div>
     
     <div id="corpsProfil">
-        
+        Entour&eacute; par les chats depuis tous petit et vivant en apparetement sur Lyon, je n'ai pas la possibilit&eacute; d'en avoir un. Je me propose donc pour garder le votre. Gentil, attention et amoureux des animaux, je pense avoir le profil id&eacute;al pour garder votre chat.
     </div>
     
     <footer>
