@@ -79,6 +79,8 @@ body{
 #home .row .img-circle{
     display: block;
     margin: auto;
+    width: 120px;
+    height: 120px;
 }
 
 #home .jumbotron{
