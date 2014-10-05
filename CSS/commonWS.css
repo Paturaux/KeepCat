@@ -164,8 +164,17 @@ body{
     max-width: 310px;
 }
 
-#search tr, #search th{
+#search th{
     text-align: center;
+}
+#search tr{
+    text-align: center;
+    cursor: pointer;
+}
+
+
+#search td{
+    vertical-align: middle;
 }
 
 #search .btn-search{
@@ -188,6 +197,87 @@ body{
     font-size: 1.5em;
     color: #F71911;
 }
+
+#search .circle-img{
+    overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    max-width:90px;
+    height:90px;
+    background:url("../resources/profil.png") no-repeat 0px 0px;
+    background-position: center;
+    background-size: 90px 90px;
+    margin: auto;
+    border: solid 1px #b9def0;
+}
+
+/* ----------------------------- Page Propose ------------------- */
+
+#propose h1{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 3.4em;
+}
+
+#propose p.help{
+    font-size: 1.4em;
+    text-align: justify;
+}
+
+
+#propose .input-group img{
+    height: 20px;
+}
+
+#propose .panel{
+    max-width: 800px;
+    margin: auto;
+    padding-bottom: 25px;
+}
+
+#propose .panel-heading{
+    margin-bottom: 30px;
+}
+
+#propose .panel label{
+    display: block;
+    margin: auto;
+    text-align:center;
+    font-size: 1.3em;
+}
+
+#propose #pane-state{
+    border-color: #5cb85c;
+}
+
+#propose #pane-state .panel-heading{
+    background-color: #5cb85c;
+}
+
+#propose #pane-list{
+    border-color: #d9534f;
+}
+
+#propose #pane-list .panel-heading{
+    background-color: #d9534f;
+    border: #d9534f;
+}
+
+#propose .btn-group, #propose .input-group{
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#propose .btn-valide{
+    display: block;
+    margin: auto;
+    width: 180px;
+    /*background-color: #5cb85c;*/
+}
+
 
 /* ------------------------------ Page connexion ---------------- */
 

@@ -39,7 +39,7 @@ if(isset($_SESSION['screen']) and $_SESSION['screen'] == 'phone'){
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li><a href="index.php?page=rechercher"><button type="button" class="btn btn-xs btn-primary">Rechercher</button></a></li>
-            <li><a href="#"><button type="button" class="btn btn-xs btn-success">Se proposer</button></a></li>
+            <li><a href="index.php?page=proposer"><button type="button" class="btn btn-xs btn-success">Se proposer</button></a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
           

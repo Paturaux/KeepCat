@@ -7,7 +7,9 @@ if(isset($_SESSION['screen']) and $_SESSION['screen'] == 'phone'){
         $retPage = 'index.php?page=accueil';
         require_once 'View/rechercher.php';
     }
-    header('Location: index.php?page=connexion&dst=rechercher');
+    else{
+        header('Location: index.php?page=connexion&dst=rechercher');
+    }
 }
 else{
     require_once 'ViewWS/v_search.php';

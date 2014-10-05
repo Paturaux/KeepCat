@@ -39,7 +39,7 @@ require_once 'head.php';
         </div>
         <div class="btn-group btn-group-justified">
             <div class="btn-group">
-                <button type="button" class="btn btn-default order-btn" onclick="selectOrder(this, 'mark');">Trier par note</button>
+                <button type="button" class="btn btn-default order-btn active" onclick="selectOrder(this, 'mark');">Trier par note</button>
             </div>
             <div class="btn-group">
               <button type="button" class="btn btn-default order-btn" onclick="selectOrder(this, 'price');">Trier par prix</button>
@@ -62,9 +62,9 @@ require_once 'head.php';
         if(isset($listeUsers)){
             foreach($listeUsers as $user){
                 echo '<tr>'
-                    .'<td>dd</td>'
+                    .'<td><div class="circle-img"></div></td>'
                     .'<td>'.$user['name'].'</td>'
-                    .'<td>'.$user['price'].'</td>'
+                    .'<td>'.$user['price'].' &euro;/semaine</td>'
                     .'<td '.(($user['mark'] <= 2)? 'class="bad-mark"':'class="good-mark"').'>'.$user['mark'].'</td>'
                     .'</tr>';
             }

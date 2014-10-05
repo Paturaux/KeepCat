@@ -25,7 +25,7 @@
                 <img src="resources/screen_phone.png" alt="KeepCat mode téléphone" class="img_left" onclick="submitForm('phone');"/>
                 <img src="resources/screen_web.png" alt="KeepCat mode site Web" class="img_right" onclick="submitForm('web');"/>
             </div>
-            <input name="screen" value="dd" type="hidden">
+            <input name="screen" value="" type="hidden">
         </form>
         
         <script type="text/javascript">
