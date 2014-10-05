@@ -665,6 +665,7 @@ div.cadre_article_wiki{
     border: solid 1px #ccc;
     box-shadow: 1px 1px 3px #ccc;
     background-color: #fff;
+    cursor: pointer;
 }
 
 div h1.titre_article_wiki{
@@ -694,4 +695,36 @@ div p.text_preview_articles_wiki{
     line-height: 100%;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+div.article_wiki{
+    margin: 10px 10px;
+    height: 510px;
+    width: 303px;
+    border: solid 1px #ccc;
+    box-shadow: 1px 1px 3px #ccc;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+div h1.grand_titre_article_wiki{
+    display: inline-block;
+    position: relative;
+    width: 290px;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-left: 8px;
+    margin-top: 6px;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #2789e4;
+    text-align: center;
+}
+
+div p.text_articles_wiki{
+    margin-top: 10px;
+    line-height: 120%;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
 }

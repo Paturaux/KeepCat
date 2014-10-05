@@ -44,6 +44,8 @@ else{
                 break;
             case 'wikichat': require_once 'Controller/c_wikichat.php';
                 break;
+            case 'article1_wiki': require_once 'Controller/c_article1_wiki.php';
+                break;
 
             case 'deconnexion':
                 session_destroy();
